@@ -25,7 +25,6 @@ public class App {
     private static void selectorDeEjercicios() {
         do {
             Menu.despliegueMenuPrincipal();
-
             try {
                 ejercicio = ScannerUtils.readInt();
                 if (ejercicio == 0) {
