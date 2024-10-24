@@ -46,7 +46,7 @@ public class Ejercicio9 {
         if (numero % 2 == 0) {
             return false;
         }
-        for (int i = 3; i <= Math.sqrt(numero); i += 2) { //
+        for (int i = 3; i <= Math.sqrt(numero); i += 2) { // Math.sqrt en lugar de numero reduce significativamente iteraciones en números grandes
             if (numero % i == 0) {
                 return false;
             }
